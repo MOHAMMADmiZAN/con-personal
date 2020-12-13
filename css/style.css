@@ -1,16 +1,16 @@
 /*=================common-css-start=======================*/
 @font-face {
-    font-family: "Proxima-Bold";
+    font-family: Proxima-Bold;
     src: url("../Fonts/Proxima Nova Bold.otf") format("otf");
 
 }
 @font-face {
-    font-family: "Proxima-rg";
+    font-family: Proxima-rg;
     src: url("../Fonts/ProximaNovaRegular.ttf") format("ttf");
 
 }
 @font-face {
-    font-family:"Proxima-lt";
+    font-family: Proxima-lt;
     src: url("../Fonts/proximanovalight.ttf") format("ttf");
 }
 *{
@@ -120,14 +120,14 @@ body{
     width: 90%;
     margin: 20px auto;
     color: #1b1740;
-    font-family: "Proxima-rg",sans-serif;
+    font-family: Proxima-rg,sans-serif;
     font-weight: 500;
     font-size: 16px;
 
 }
 #header-top .header-links .dropdown #Keywords::placeholder{
     color: #1b1740;
-    font-family: "Proxima-rg",sans-serif;
+    font-family: Proxima-rg, sans-serif;
     font-weight: 600;
     font-size: 16px;
 }
@@ -139,7 +139,7 @@ body{
     padding: 10px 5px;
     margin: 20px auto;
     color: #1b1740;
-    font-family: "Proxima-rg",sans-serif;
+    font-family: Proxima-rg,sans-serif;
     font-weight: 600;
     font-size: 16px;
 
@@ -153,7 +153,7 @@ body{
     color: #ffffff;
     margin: 10px auto;
     display: block;
-    font-family: "Proxima-rg",sans-serif;
+    font-family: Proxima-rg,sans-serif;
     font-weight: 600;
     font-size: 16px;
     transition: 0.4s;
@@ -171,7 +171,7 @@ body{
     justify-content: center;
 }
 #header .header-content .text{
-    font-family: "Proxima-rg",sans-serif;
+    font-family: Proxima-rg,sans-serif;
     font-weight: 600;
     font-size: 22px;
     color: #ffffff;
@@ -200,7 +200,7 @@ body{
     overflow: hidden;
 }
 #banner .banner-title h1{
-    font-family: "Proxima-lt",sans-serif;
+    font-family: Proxima-lt,sans-serif;
     font-size: 66px;
     font-weight: 300;
     color: #ffffff;
@@ -216,13 +216,13 @@ body{
     padding: 13px;
     width: 25%;
     color: #1b1740;
-    font-family: "Proxima-rg",sans-serif;
+    font-family: Proxima-rg,sans-serif;
     font-weight: 500;
     font-size: 16px;
 }
 #banner .banner-form #B-Keywords::placeholder{
     color: #1b1740;
-    font-family: "Proxima-rg",sans-serif;
+    font-family: Proxima-rg,sans-serif;
     font-weight: 600;
     font-size: 16px;
 }
@@ -232,7 +232,7 @@ body{
     outline: none;
     padding: 15px;
     color: #1b1740;
-    font-family: "Proxima-rg",sans-serif;
+    font-family: Proxima-rg,sans-serif;
     font-weight: 600;
     font-size: 16px;
 }
@@ -244,7 +244,7 @@ body{
     padding: 10px 20px;
     color: #ffffff;
     margin: 20px;
-    font-family: "Proxima-rg",sans-serif;
+    font-family: Proxima-rg,sans-serif;
     font-weight: 600;
     font-size: 16px;
     transition: 0.4s;
@@ -280,7 +280,7 @@ body{
 
 }
 #banner-content .items .text h3{
-    font-family: "Proxima-Bold",sans-serif;
+    font-family: Proxima-Bold,sans-serif;
     font-size: 40px;
     padding: 20px 0;
     font-weight: 600;
@@ -330,7 +330,7 @@ body{
 }
 
 #latest h3{
-    font-family: "Proxima-Bold",sans-serif;
+    font-family: Proxima-Bold,sans-serif;
     font-size: 40px;
     padding: 20px 0;
     font-weight: 600;
@@ -349,20 +349,20 @@ body{
     outline: none;
 }
 #latest .items h6{
-    font-family: "Proxima-Bold",sans-serif;
+    font-family: Proxima-Bold,sans-serif;
     font-weight: 600;
     font-size: 20px;
     text-transform: uppercase;
 }
 #latest .items h4{
-    font-family: "Proxima-Bold",sans-serif;
+    font-family: Proxima-Bold,sans-serif;
     font-weight: 600;
     font-size: 30px;
     padding: 20px 0;
     color: #615b9b;
 }
 #latest .items p{
-    font-family: "Proxima-Bold",sans-serif;
+    font-family: Proxima-Bold,sans-serif;
     font-weight: 600;
     font-size: 20px;
     padding: 10px 0;
@@ -371,7 +371,7 @@ body{
 
 }
 #latest .items .text{
-    font-family: "Proxima-rg",sans-serif;
+    font-family: Proxima-rg,sans-serif;
     font-weight: 400;
     font-size: 20px;
     padding: 10px 0;
@@ -386,7 +386,7 @@ body{
 #latest .items a{
     color: #615b9b;
     text-decoration: underline;
-    font-family: "Proxima-rg",sans-serif;
+    font-family: Proxima-rg,sans-serif;
     font-weight: 500;
     font-size: 18px;
     transition: 0.4s;
@@ -442,14 +442,14 @@ body{
     padding: 60px;
 }
 #details .d-content h1{
-    font-family: "Proxima-lt",sans-serif;
+    font-family: Proxima-lt,sans-serif;
     font-size: 66px;
     font-weight: 300;
     color: #ffffff;
     padding: 20px 0;
 }
 #details .d-content p{
-    font-family: "Proxima-rg",sans-serif;
+    font-family: Proxima-rg,sans-serif;
     font-size: 22px;
     font-weight: 400;
     color: #ffffff;
@@ -462,14 +462,14 @@ body{
     padding: 120px;
 }
 #refer .text .r-heading{
-    font-family: "Proxima-lt",sans-serif;
+    font-family: Proxima-lt,sans-serif;
     font-size: 54px;
     font-weight: 300;
     color: #1b1740;
     padding: 20px 0;
 }
 #refer .text p{
-    font-family: "Proxima-rg",sans-serif;
+    font-family: Proxima-rg,sans-serif;
     font-size: 22px;
     font-weight: 400;
     color: #4e5a60;
@@ -479,7 +479,7 @@ body{
 #refer .text a{
     padding: 10px 20px;
     border: 2px solid #615b9b;
-    font-family: "Proxima-Bold",sans-serif;
+    font-family: Proxima-Bold,sans-serif;
     font-weight: 600;
     font-size: 22px;
     line-height: 14px;
@@ -505,7 +505,7 @@ body{
     height: 70px;
 }
 #contact  .text{
-    font-family: "Proxima-rg",sans-serif;
+    font-family: Proxima-rg,sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: #ffffff;
@@ -514,7 +514,7 @@ body{
 }
 #contact .item .f-c-title {
     color: #615b9b;
-    font-family: "Proxima-Bold",sans-serif;
+    font-family: Proxima-Bold,sans-serif;
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 20px;
@@ -525,7 +525,7 @@ body{
 }
 #contact .item p{
     color: #ffffff;
-    font-family: "Proxima-rg", sans-serif;
+    font-family: Proxima-rg, sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -553,7 +553,7 @@ body{
     height: 35px;
     border: 1px solid #ffffff;
     color: #ffffff;
-    font-family: "Proxima-rg",sans-serif;
+    font-family: Proxima-rg,sans-serif;
     font-weight: 400;
     font-size: 16px;
     text-align: center;

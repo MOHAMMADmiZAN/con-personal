@@ -1,0 +1,563 @@
+/*=================common-css-start=======================*/
+@font-face {
+    font-family: "Proxima-Bold",sans-serif;
+    src: url("../Fonts/Proxima Nova Bold.otf") format("otf");
+
+}
+@font-face {
+    font-family: "Proxima-rg",sans-serif;
+    src: url("../Fonts/ProximaNovaRegular.ttf") format("ttf");
+
+}
+@font-face {
+    font-family:"Proxima-lt",sans-serif;
+    src: url("../Fonts/proximanovalight.ttf") format("ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a,a:hover,a:focus{
+    text-decoration: none;
+}
+ol,ul,li{
+    list-style: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 0;
+}
+body{
+    overflow-x: hidden;
+    position: relative;
+}
+.c-container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.f-bold{
+    font-weight: 900;
+}
+.med-bg{
+    background: rgba(115, 186, 157,0.9);
+}
+.eng-bg{
+    background: rgba(107, 170, 193,0.9);
+}
+.con-bg{
+    background: rgba(107, 131, 193,0.9);
+}
+.m-t-100{
+    margin-top: 145px!important;
+}
+.p-b-120{
+    padding-bottom: 120px!important;
+}
+.p-b-90{
+    padding-bottom: 90px!important;
+}
+.c-61b{
+    color: #615b9b!important;
+}
+.c-un{
+    text-decoration: underline;
+}
+/*=================common-css-end=======================*/
+/*=============================header-top-start========================*/
+#header-top .header-top-content{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ #header-top .logo img{
+    width: 256px;
+    height: 70px;
+}
+#header-top .header-links{
+    position: relative;
+}
+#header-top .header-links ul li{
+    margin: 0 10px;
+}
+#header-top .header-links ul li a{
+    padding: 10px 20px;
+    border: 2px solid #615b9b;
+    font-family: "Proxima-Bold",sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 14px;
+    border-radius: 5px;
+    color: #615b9b;
+    transition: 0.4s;
+}
+#header-top .header-links ul li a:hover{
+    color: #ffffff;
+    background: #615b9b;
+}
+#header-top .header-links ul li a i{
+    padding:  0 5px;
+}
+#header-top .header-links .dropdown{
+    padding: 10px;
+    background: #615b9b;
+    width: 240px;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    border-radius: 5px;
+    display: none;
+    z-index: 444;
+}
+#header-top .header-links .dropdown label{
+    display: none;
+}
+#header-top .header-links .dropdown #Keywords{
+    display: block;
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 90%;
+    margin: 20px auto;
+    color: #1b1740;
+    font-family: "Proxima-rg",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+#header-top .header-links .dropdown #Keywords::placeholder{
+    color: #1b1740;
+    font-family: "Proxima-rg",sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+#header-top .header-links .dropdown select{
+    display: block;
+    width: 90%;
+    border: none;
+    outline: none;
+    padding: 10px 5px;
+    margin: 20px auto;
+    color: #1b1740;
+    font-family: "Proxima-rg",sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+#header-top .header-links .s-job{
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    outline: none;
+    background: transparent;
+    padding: 10px 20px;
+    color: #ffffff;
+    margin: 10px auto;
+    display: block;
+    font-family: "Proxima-rg",sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.4s;
+
+}
+
+/*=============================header-top-end========================*/
+/*=============================header-start========================*/
+#header{
+
+    background: #1b1740;
+}
+#header .header-content{
+    display: flex;
+    justify-content: center;
+}
+#header .header-content .text{
+    font-family: "Proxima-rg",sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 33.3%;
+    text-align: center;
+    transition: 0.4s;
+    padding: 30px 0;
+    cursor: pointer;
+}
+#header .header-content .med:hover{
+    background: #73ba9d;
+}
+#header .header-content .eng:hover{
+    background: #6baac1;
+}
+#header .header-content .con:hover{
+    background: #6b83c1;
+}
+/*=============================header-end========================*/
+/*=============================banner-start========================*/
+#banner{
+    padding: 60px 0;
+    background:linear-gradient(90deg, rgba(80,72,154,0.9) 35%, rgba(35,25,95,1) 100%);
+    position: relative;
+    overflow: hidden;
+}
+#banner .banner-title h1{
+    font-family: "Proxima-lt",sans-serif;
+    font-size: 66px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+#banner .banner-form #B-Keywords{
+    border: none;
+    outline: none;
+    padding: 13px;
+    width: 25%;
+    color: #1b1740;
+    font-family: "Proxima-rg",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+#banner .banner-form #B-Keywords::placeholder{
+    color: #1b1740;
+    font-family: "Proxima-rg",sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+#banner .banner-form select{
+    width: 25%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    color: #1b1740;
+    font-family: "Proxima-rg",sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+#banner .banner-form .s-job{
+    border: 2px solid rgba(80,72,154,1);
+    border-radius: 5px;
+    outline: none;
+    background: transparent;
+    padding: 10px 20px;
+    color: #ffffff;
+    margin: 20px;
+    font-family: "Proxima-rg",sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.4s;
+}
+#banner .watermark{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: -60px;
+    bottom: -150px;
+    z-index: -1;
+}
+#banner .watermark img{
+    width: 400px;
+    height: 400px;
+}
+/*=============================banner-end========================*/
+/*=============================banner-content-start========================*/
+#banner-content .items {
+    padding: 0;
+}
+
+#banner-content .items .image img{
+    width: 100%;
+
+}
+#banner-content .items .text{
+    padding: 60px;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    height: 620px;
+
+}
+#banner-content .items .text h3{
+    font-family: "Proxima-Bold",sans-serif;
+    font-size: 40px;
+    padding: 20px 0;
+    font-weight: 600;
+
+}
+#banner-content .items .text h4{
+    font-family: Proxima-lt, sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+    padding: 5px 0;
+}
+#banner-content .items button{
+    margin-top: 60px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+#banner-content .items .text a{
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-family: Proxima-Bold, sans-serif;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.4s;
+
+}
+#banner-content .items .text a:hover{
+    background: #ffffff;
+    color: #615b9b;
+}
+#banner-content .watermark{
+    position: absolute;
+    right: -65px;
+    bottom: 40px;
+}
+#banner-content .watermark img{
+    width: 256px;
+    height: 150px;
+}
+/*=============================banner-content-end========================*/
+/*=====================================latest-start============================*/
+#latest{
+    background: #f5f4fc;
+    padding: 60px 0 100px;
+
+}
+
+#latest h3{
+    font-family: "Proxima-Bold",sans-serif;
+    font-size: 40px;
+    padding: 20px 0;
+    font-weight: 600;
+    text-align: center;
+}
+#latest .slider{
+    display: flex;
+}
+#latest .items{
+    border-radius: 10px;
+    background: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    width: 460px;
+    height: 420px;
+    outline: none;
+}
+#latest .items h6{
+    font-family: "Proxima-Bold",sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#latest .items h4{
+    font-family: "Proxima-Bold",sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 20px 0;
+    color: #615b9b;
+}
+#latest .items p{
+    font-family: "Proxima-Bold",sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 0;
+    color: #4e5a60;
+
+
+}
+#latest .items .text{
+    font-family: "Proxima-rg",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    color: #4e5a60;
+
+
+}
+#latest .items li{
+    margin-right: 15px;
+}
+#latest .items a{
+    color: #615b9b;
+    text-decoration: underline;
+    font-family: "Proxima-rg",sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.4s;
+
+
+}
+#latest .items a:hover{
+    color: #766cdc;
+}
+#latest .slider ul{
+    position: absolute;
+    left: 50%;
+    bottom: -60px;
+    transform: translateX(-50%);
+}
+#latest .slider ul li{
+    margin: 5px;
+}
+#latest .slider ul li button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #615b9b;
+    outline: none;
+    background: transparent;
+}
+
+#latest .slider .slick-active button{
+    background: #615b9b;
+}
+#latest .watermark{
+    position: absolute;
+    top: -130px;
+    left: -180px;
+}
+#latest .watermark img{
+    width: 300px;
+    height: 300px;
+
+}
+/*=====================================latest-end============================*/
+/*=====================================details-start============================*/
+#details{
+    background: url("../images/D-bg2.jpg")  no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 868px ;
+}
+#details .d-content{
+    margin-top: 100px;
+    background: #615b9b;
+    padding: 60px;
+}
+#details .d-content h1{
+    font-family: "Proxima-lt",sans-serif;
+    font-size: 66px;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 20px 0;
+}
+#details .d-content p{
+    font-family: "Proxima-rg",sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 20px 0;
+    line-height: 34px;
+}
+/*=====================================details-end============================*/
+/*=====================================refer-start============================*/
+#refer{
+    padding: 120px;
+}
+#refer .text .r-heading{
+    font-family: "Proxima-lt",sans-serif;
+    font-size: 54px;
+    font-weight: 300;
+    color: #1b1740;
+    padding: 20px 0;
+}
+#refer .text p{
+    font-family: "Proxima-rg",sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #4e5a60;
+    padding: 20px 0;
+    line-height: 34px;
+}
+#refer .text a{
+    padding: 10px 20px;
+    border: 2px solid #615b9b;
+    font-family: "Proxima-Bold",sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 14px;
+    border-radius: 5px;
+    color: #615b9b;
+    transition: 0.4s;
+}
+#refer .text a:hover{
+    color: #ffffff;
+    background: #615b9b;
+}
+#refer .image img{
+    width: 100%;
+}
+/*=====================================refer-end============================*/
+/*=====================================contact-start============================*/
+#contact{
+    padding: 120px;
+    background: #1b1740;
+}
+#contact .f-logo img{
+    width: 256px;
+    height: 70px;
+}
+#contact  .text{
+    font-family: "Proxima-rg",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 60px;
+
+}
+#contact .item .f-c-title {
+    color: #615b9b;
+    font-family: "Proxima-Bold",sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+#contact .item .f-c-title i{
+    margin-right: 5px;
+}
+#contact .item p{
+    color: #ffffff;
+    font-family: "Proxima-rg",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 15px 0;
+    text-align: right;
+}
+#contact .item .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#contact .item .social .s-left{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 130px;
+}
+#contact .item .social .s-left img{
+    width: 22px;
+    height: 30px;
+    margin-left: 20px;
+}
+#contact .item .social .s-links a{
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-family: "Proxima-rg",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    line-height: 35px;
+    display: inline-block;
+    border-radius: 50%;
+}
+/*=====================================contact-end============================*/

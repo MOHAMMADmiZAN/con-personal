@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc8d8f11-2151-4a9f-a446-0e65d6cb428b" name="Default Changelist" comment="create a new site">
-      <change afterPath="$PROJECT_DIR$/images/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607705826005</updated>
       <workItem from="1607705828354" duration="20000" />
-      <workItem from="1607705859191" duration="46762000" />
+      <workItem from="1607705859191" duration="48288000" />
     </task>
     <task id="LOCAL-00001" summary="create a new site">
       <created>1607839099610</created>
@@ -77,7 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607839099610</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create a new site">
+      <created>1607839404454</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607839404454</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create a new site">
+      <created>1607840655200</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607840655200</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

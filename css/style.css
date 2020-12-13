@@ -1,16 +1,16 @@
 /*=================common-css-start=======================*/
 @font-face {
-    font-family: "Proxima-Bold",sans-serif;
+    font-family: "Proxima-Bold";
     src: url("../Fonts/Proxima Nova Bold.otf") format("otf");
 
 }
 @font-face {
-    font-family: "Proxima-rg",sans-serif;
+    font-family: "Proxima-rg";
     src: url("../Fonts/ProximaNovaRegular.ttf") format("ttf");
 
 }
 @font-face {
-    font-family:"Proxima-lt",sans-serif;
+    font-family:"Proxima-lt";
     src: url("../Fonts/proximanovalight.ttf") format("ttf");
 }
 *{

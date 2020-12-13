@@ -2,16 +2,19 @@
 @font-face {
     font-family: Proxima-Bold;
     src: url("../Fonts/Proxima Nova Bold.otf") format("otf");
+    font-weight: bold;
 
 }
 @font-face {
     font-family: Proxima-rg;
     src: url("../Fonts/ProximaNovaRegular.ttf") format("ttf");
+    font-weight: 500;
 
 }
 @font-face {
     font-family: Proxima-lt;
     src: url("../Fonts/proximanovalight.ttf") format("ttf");
+    font-weight: 300;
 }
 *{
     margin: 0;

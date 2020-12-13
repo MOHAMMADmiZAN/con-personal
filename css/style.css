@@ -535,7 +535,8 @@ body{
 #contact .item .social {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+    margin-top: 50px;
 }
 #contact .item .social .s-left{
     display: flex;

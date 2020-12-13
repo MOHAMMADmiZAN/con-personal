@@ -1,20 +1,21 @@
 /*=================common-css-start=======================*/
 @font-face {
     font-family: Proxima-Bold;
-    src: url("../Fonts/Proxima Nova Bold.otf") format("otf");
-    font-weight: bold;
-
-}
-@font-face {
-    font-family: Proxima-rg;
-    src: url("../Fonts/ProximaNovaRegular.ttf") format("ttf");
-    font-weight: 500;
+    src: url('../Fonts/proxima_nova_bold-webfont.woff2') format('woff2'),
+    url('../fonts/proxima_nova_bold-webfont.woff') format('woff');
 
 }
 @font-face {
     font-family: Proxima-lt;
-    src: url("../Fonts/proximanovalight.ttf") format("ttf");
-    font-weight: 300;
+    src: url('../Fonts/proximanovalight-webfont.woff2') format('woff2'),
+    url('../Fonts/proximanovalight-webfont.woff') format('woff');
+
+}
+@font-face {
+    font-family: Proxima-rg;
+    src: url('../Fonts/proximanovaregular-webfont.woff2') format('woff2'),
+    url('../Fonts/proximanovaregular-webfont.woff') format('woff');
+
 }
 *{
     margin: 0;

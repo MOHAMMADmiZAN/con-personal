@@ -52,7 +52,7 @@ body{
     background: rgba(107, 131, 193,0.9);
 }
 .m-t-100{
-    margin-top: 145px!important;
+    margin-top: 100px!important;
 }
 .p-b-120{
     padding-bottom: 120px!important;
@@ -292,8 +292,7 @@ body{
 }
 #banner-content .items .text h4{
     font-family: Proxima-lt, sans-serif;
-    font-size: 32px;
-    font-weight: 200;
+    font-size: 31px;
     padding: 5px 0;
 }
 #banner-content .items button{

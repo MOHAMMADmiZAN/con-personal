@@ -38,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -65,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607705826005</updated>
       <workItem from="1607705828354" duration="20000" />
-      <workItem from="1607705859191" duration="49330000" />
+      <workItem from="1607705859191" duration="49695000" />
     </task>
     <task id="LOCAL-00001" summary="create a new site">
       <created>1607839099610</created>
@@ -109,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607842874769</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create a new site">
+      <created>1607843500474</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607843500474</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +135,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="create a new site" />
     <option name="LAST_COMMIT_MESSAGE" value="create a new site" />
   </component>
